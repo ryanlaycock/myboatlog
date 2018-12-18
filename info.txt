@@ -1,0 +1,17 @@
+/home/codio/.rbenv/shims/catchmail
+
+parts install php5-curl
+
+sendgrid key : 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
+
+http://www.sanwebe.com/2013/03/addremove-input-fields-dynamically-with-jquery
+
+http://stackoverflow.com/questions/29986657/global-variable-usage-on-page-reload?answertab=votes#tab-top
+
+https://developers.google.com/maps/articles/phpsqlajax_v3
+
+http://www.sanwebe.com/2013/10/google-map-v3-markers-and-infowindow-with-jquery
+http://www.sanwebe.com/2013/10/google-map-v3-editing-saving-marker-in-database
+http://blog.teamtreehouse.com/create-ajax-contact-form
+
+http://snippetrepo.com/snippets/multiple-markers-using-json-with-google-maps-api

@@ -1,0 +1,93 @@
+html{
+    font-family: 'Oswald', sans-serif;
+}
+p{
+    font-size:15px;
+    color: rgb(255, 255, 255);
+    margin: 5px;
+}
+#header{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 80px;
+    border: 1px;
+    background-color: rgba(77, 77, 255, 1);
+    text-align: center;
+    z-index:1;
+}
+#header h1{
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    /*text-shadow: 1px 0px 30px rgba(0, 0, 0, 0.68);*/
+}
+#header #buttons{
+    position: fixed;
+    right: 50px;
+    top: 12.5px;
+}
+#header button{
+    width: 80px;
+    height: 40px;
+    border: none;
+    font-size:15px;
+    color: white;
+    margin: 5px;
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
+    transition: ease-in-out, background-color 0.5s;
+    -webkit-transition: ease-in-out, background-color 0.5s;
+}
+#left_button{
+    position: fixed;
+    float:left;
+    left: 50px;
+    top: 12.5px;
+}
+input{
+    margin: 3px;
+    height: 30px;
+    width: 250px;
+    border-bottom: 2px solid;
+    border-color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 255, 255, 0); 
+    font-size: 17px;
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Oswald', sans-serif;
+    padding-left: 5px;
+}
+input:focus{
+    border-color: rgba(179,44,0, 0.8);
+}
+input[type=submit]{
+    border: 2px solid;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 40px;
+    transition: ease-in-out, background-color 0.5s;
+    -webkit-transition: ease-in-out, background-color 0.5s;
+}
+input[type=submit]:hover{
+    background-color: rgba(153, 153, 153, 0.8);
+    transition: ease-in-out, background-color 0.5s;
+    -webkit-transition: ease-in-out, background-color 0.5s;
+}
+::-webkit-input-placeholder { color: rgba(255, 255, 255, 1);}
+::-moz-placeholder { color: rgba(255, 255, 255, 1);} /* firefox 19+ */
+:-ms-input-placeholder { color: rgba(255, 255, 255, 1); } /* ie */
+input:-moz-placeholder { color: rgba(255, 255, 255, 1); }
+#info{
+    width: 100%;
+    bottom:0px;
+    position: fixed;   
+    background-color: rgb(77, 255, 77);
+    text-align:center;
+}
+#info p{
+    margin:10px;
+    color: rgb(0,0,0);
+}

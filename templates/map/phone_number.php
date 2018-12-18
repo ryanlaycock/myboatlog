@@ -1,0 +1,1 @@
+<input type="text" id="phone_number" placeholder="Phone Number">

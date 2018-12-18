@@ -1,0 +1,73 @@
+html{
+    background: url("/images/backgroundimage.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#header #registerbutton{
+    background: none;
+    border-bottom: 4px solid;
+    border-color: rgb(0,128,0);
+}
+#header #loginbutton{
+    background: none;
+    border-bottom: 4px solid;
+    border-color: rgba(179,44,0, 0.8);
+}
+#header #loginbutton:hover{
+    background-color: rgba(179, 44, 0, 1);   
+}
+#header #registerbutton:hover{
+    background-color: rgba(0,128,0, 1);   
+}
+#form{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+
+    width:300px;
+    
+    text-align: center;
+    padding: 10px;
+    
+    background-color: rgba(102, 102, 102, 0.5);
+    border-radius: 4px;
+    z-index: 0;
+    
+}
+#form h2{
+    font-size:30px;
+    color: rgb(255, 255, 255);
+    margin: 5px;
+    line-height: 130%;
+}
+
+#form a{
+    text-decoration: none;
+}
+#form #error{
+    color: rgb(255, 255, 255);
+    margin-top: 15px;
+}
+#agreewrapper{
+    margin-top:30px;
+    width: 250px;
+    margin-left: 20px;
+    
+}
+#agree{
+    width: 30px;
+    float: left;
+    margin-right: 10px;
+    clear:both;
+    
+}
+#agreetext{
+    margin-left: 0px;
+    
+    display:block;
+    color: rgb(255, 255, 255);
+    
+}

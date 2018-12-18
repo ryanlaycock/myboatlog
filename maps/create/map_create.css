@@ -1,0 +1,110 @@
+html{
+    background-color: rgb(230, 230, 230);
+}
+#content{
+    width: 90%;
+    margin-top:100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+h2{
+    font-size: 15px;
+    position: inline-block;
+}
+h4{
+    margin-top: 10px;
+}
+#googleMap{
+    float: left;
+    width:60%;
+    height: calc(100% - 120px);
+}
+#form_contents, #button_location{
+    padding: 10px;
+    background-color: rgb(250, 250, 250);
+    border-radius: 4px;
+    margin-bottom: 10px;
+    width: 30%;
+    left: auto;
+    right: auto;
+    float: right;
+}
+
+
+input, select, textarea, #submit{
+    margin: 3px;
+    height: 35px;
+    width: 100%;
+    border-radius: 2px;
+    border: 2px solid;
+    background-color: rgb(230, 230, 230);
+    font-size: 17px;
+    letter-spacing: 1px;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+}
+input:focus{
+    border-color: black;
+}
+::-webkit-input-placeholder { 
+  color: black;
+}
+::-moz-placeholder {
+  color: black;
+}
+:-ms-input-placeholder { 
+  color: black;
+}
+:-moz-placeholder { 
+  color: black;
+}
+textarea{
+    margin-bottom: -10px;
+}
+#add_crew, #add_row, #submit{
+    border: 2px solid;
+    transition: ease-in-out, background-color 0.5s;
+    -webkit-transition: ease-in-out, background-color 0.5s;
+}
+#add_crew:hover, #add_row:hover, #submit:hover{
+    background-color: rgba(153, 153, 153, 0.8);
+    transition: ease-in-out, background-color 0.5s;
+    -webkit-transition: ease-in-out, background-color 0.5s;
+}
+
+#header #mapbutton{
+    background: none;
+    border-bottom: 4px solid;
+    border-color: rgb(0,128,0);
+}
+#header #logbutton{
+    background: none;
+    border-bottom: 4px solid;
+    border-color: rgba(179,44,0, 0.8);
+}
+#header #logbutton:hover{
+    background-color: rgba(179, 44, 0, 1);   
+}
+#header #mapbutton:hover{
+    background-color: rgba(0,128,0, 1);   
+}
+#header #homebutton{
+    background: none;
+    border-bottom: 4px solid;
+    border-color: rgba(179,44,0, 0.8);
+}
+#header #homebutton:hover{
+    background-color: rgba(179, 44, 0, 1);   
+}
+
+#error{
+    text-align: center;
+}
+#error p{
+    color: rgb(0, 0, 0);
+}
